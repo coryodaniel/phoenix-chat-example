@@ -1,5 +1,7 @@
 FROM elixir:1.12-alpine
 ENV MIX_ENV=prod
+ENV SECRET_KEY_BASE=stub
+
 WORKDIR /app
 
 RUN apk add --update openssl ncurses openssh nodejs postgresql-client build-base
@@ -12,7 +14,7 @@ RUN mix local.hex --force && \
   mix compile
 
 COPY . .
-ENV SECRET_KEY_BASE=stub
-RUN mix phx.digest
+
+RUN mix assets.deploy
 
 CMD ["/app/entrypoint.sh"]

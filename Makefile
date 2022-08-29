@@ -1,9 +1,5 @@
-REPO=massdrivercloud/phoenix-chat-example
 build:
-	docker build -t ${REPO}:latest .
-
-push:
-	docker push ${REPO}:latest
+	docker build -t massdrivercloud/phoenix-chat-example:latest .
 
 run:
 	docker compose up
