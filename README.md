@@ -1,6 +1,10 @@
 <div align="center">
 
-# Phoenix Chat Example
+# Phoenix Chat Demo App on Massdriver.cloud
+
+This is a fork [dwyl/phoenix-chat-example](https://github.com/dwyl/phoenix-chat-example) running as an application ([src](https://github.com/massdriver-cloud/application-examples/tree/main/phoenix-chat)) on [massdriver](https://massdriver.cloud).
+
+## Phoenix Chat Example
 
 ![phoenix-chat-logo](https://user-images.githubusercontent.com/194400/39481553-c448aa1c-4d63-11e8-9389-47789833a96e.png)
 
