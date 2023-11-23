@@ -4,7 +4,7 @@
     <meta charset="utf-8"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>Chat · Phoenix Framework</title>
+    <title>Chat deployed on Massdriver</title>
     <link rel="stylesheet" href="<%= Routes.static_path(@conn, "/assets/app.css") %>"/>
     <script defer type="text/javascript" src="<%= Routes.static_path(@conn, "/assets/app.js") %>"></script>
   </head>
@@ -14,8 +14,8 @@
         <nav role="navigation">
           <h1 style="padding-top: 15px">Chat Example</h1>
         </nav>
-          <img src="<%= Routes.static_path(@conn, "/images/phoenix.png") %>"
-          width="500px" alt="Phoenix Framework Logo" />
+          <img src="<%= Routes.static_path(@conn, "/images/massdriver.png") %>"
+          width="500px" alt="Massdriver Logo" />
       </section>
     </header>
     <main role="main" class="container">
